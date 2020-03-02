@@ -147,7 +147,7 @@ class Client:
         must be used to fetch the offline members of the guild.
     status: Optional[:class:`.Status`]
         A status to start your presence with upon logging on to Discord.
-    activity: Optional[:class:`BaseActivity`]
+    activity: Optional[:class:`.BaseActivity`]
         An activity to start your presence with upon logging on to Discord.
     heartbeat_timeout: :class:`float`
         The maximum numbers of seconds before timing out and restarting the
